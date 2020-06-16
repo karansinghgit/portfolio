@@ -9,7 +9,7 @@ export default function Home() {
       <br></br>
       <br></br>
       <div style={{paddingRight:'16rem', fontSize:'1.8rem'}}>
-        <p style={{color: "var(--textNormal)"}}>Hey!👋</p>    
+        <p style={{color: "var(--textNormal)"}}>Hey!<span role="img" aria-label="wave">👋</span></p>    
         <p style={{color: "var(--textNormal)"}}>I'm <strong>Karan</strong> and I love writing code and ideating.<br></br>
           I am a Backend Web Developer and a product enthusaist.
           When I am not writing code, I like to read books and play the ukulele.
