@@ -1,0 +1,33 @@
+.myclass a {
+    color: var(--textLink);
+    text-shadow: var(--textShadow);
+    transition:.2s;
+    background-image: var(--bgimage);
+}
+
+.myclass a:hover {
+    color: #da1e11;
+    background-image: none;
+}
+
+img {
+    margin-bottom: 0.2rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
